@@ -1,0 +1,2 @@
+[console_scripts]
+rdf-analysis = rdf_analysis.main:main
