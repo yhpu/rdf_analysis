@@ -30,7 +30,7 @@ venv/
 */.venv/
 */venv/
 */lib/
-*/lib64/
+*/lib64
 */bin/
 */include/
 */pyvenv.cfg
