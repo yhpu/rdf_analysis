@@ -3,11 +3,11 @@ __pycache__/
 */__pycache__/
 *.py[cod]
 *.pyo
+
+# === 安装 ===
 *.egg
 *.egg-info/
 */*.egg-info
-
-# === 安装 ===
 build/
 dist/
 *.whl
@@ -15,27 +15,34 @@ dist/
 
 # === 测试缓存 ===
 .pytest_cache/
+.ipynb_checkpoints/
 
 # === 开发环境 ===
 .vscode/
 .idea/
 .env
+ENV/
+env/
+.venv/
+venv/
+*/ENV/
+*/env/
+*/.venv/
+*/venv/
+*/lib/
+*/lib64/
+*/bin/
+*/include/
+*/pyvenv.cfg
 
-# === rdf/文件 ===
-rdf/lib/
-rdf/lib64/
-rdf/bin/
-rdf/include/
-rdf/pyvenv.cfg
-rdf/*.egg-info/
 
 # === 输临时目录 ===
-/tmp*/
-*/tmp*/
-*.zip
-*.cif
-
+*.npz
+*.lock
+*.log
+*.tmp
+*.swp
 # === 垃圾文件 ===
 .DS_Store
-
+Thumbs.db
 
