@@ -1,0 +1,33 @@
+# === Python ===
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.pyo
+*.egg
+*.egg-info/
+*/*.egg-info
+
+# === 安装 ===
+build/
+dist/
+*.whl
+*.tgz
+
+# === 测试缓存 ===
+.pytest_cache/
+
+# === 开发环境 ===
+.vscode/
+.idea/
+.env
+
+# === 输临时目录 ===
+/tmp*/
+*/tmp*/
+*.zip
+*.cif
+
+# === 垃圾文件 ===
+.DS_Store
+
+
