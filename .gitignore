@@ -21,6 +21,14 @@ dist/
 .idea/
 .env
 
+# === rdf/文件 ===
+rdf/lib/
+rdf/lib64/
+rdf/bin/
+rdf/include/
+rdf/pyvenv.cfg
+rdf/*.egg-info/
+
 # === 输临时目录 ===
 /tmp*/
 */tmp*/
