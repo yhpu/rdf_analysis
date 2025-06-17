@@ -1,0 +1,13 @@
+[project]
+name = "rdf-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.5.0",
+    "mdanalysis>=2.0.0",
+    "numpy>=1.21.0",
+    "pytest>=7.0.0",
+    "scipy>=1.7.0",
+]
