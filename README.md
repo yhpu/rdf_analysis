@@ -16,11 +16,17 @@ and generates detailed charts and data outputs for further analysis.
 
 ## Installation
 
-It is recommended to create a dedicated Conda environment:
+### Use Conda
 
 ```bash
 conda create --name rdf python=3.10
 conda activate rdf
+```
+
+### Use UV
+
+```bash
+uv sync
 ```
 
 ## Usage

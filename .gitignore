@@ -38,7 +38,6 @@ venv/
 
 # === 输临时目录 ===
 *.npz
-*.lock
 *.log
 *.tmp
 *.swp
@@ -46,3 +45,6 @@ venv/
 .DS_Store
 Thumbs.db
 
+outputs/
+*.lock
+!uv.lock
