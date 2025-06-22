@@ -15,12 +15,18 @@ and generates analysis-ready data files (.dat) along with corresponding RDF plot
 
 ## Installation
 
-It is recommended to create a dedicated Conda environment:
+### Use Conda
 
 ```bash
 conda create --name rdf python=3.10
 conda activate rdf
 pip install -r requirements.txt
+```
+
+### Use UV
+
+```bash
+uv sync
 ```
 
 ## Usage
