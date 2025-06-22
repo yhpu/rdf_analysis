@@ -3,3 +3,6 @@ matplotlib>=3.5.0
 scipy>=1.7.0
 MDAnalysis>=2.0.0
 pytest>=7.0.0
+dpdata>=1.0.0
+pymatgen>=2023.0.14
+ase>=3.22.1

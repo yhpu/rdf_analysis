@@ -9,7 +9,8 @@ setup(
         "numpy>=1.21.0",
         "matplotlib>=3.5.0",
         "scipy>=1.7.0",
-        "MDAnalysis>=2.0.0"
+        "MDAnalysis>=2.0.0",
+        "dpdata>=1.0.0" 
     ],
     entry_points={
         'console_scripts': [
